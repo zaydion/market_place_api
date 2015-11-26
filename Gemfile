@@ -40,6 +40,7 @@ group :development, :test do
 end
 
 group :development do
+  gem "shoulda-matchers"
 
   gem 'sqlite3'
   # Access an IRB console on exception pages or by using <%= console %> in views
