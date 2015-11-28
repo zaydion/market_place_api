@@ -66,4 +66,7 @@ RSpec.configure do |config|
       with.library :rails
     end
   end
+
+  #including request module w json helper to test requests
+  config.include Request::JsonHelpers, :type => :controller
 end
